@@ -1,0 +1,17 @@
+.menu {
+    text-align: center;
+    margin: 15px;
+    font-size: larger;
+}
+
+header {
+    background-color: rosybrown;
+    padding: 60px;
+    text-align: center;
+    font-size: larger;
+    position: sticky;
+    
+}
+p {
+    font-size: larger;
+}
