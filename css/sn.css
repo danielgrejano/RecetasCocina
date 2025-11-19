@@ -1,17 +1,75 @@
-.menu {
-    text-align: center;
-    margin: 15px;
-    font-size: larger;
+/* Estilos específicos para la página "Sobre nosotros" */
+
+/* Sección intro */
+.intro-nosotros {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;  /* Cambia a left para no centrar todo */
 }
 
-header {
-    background-color: rosybrown;
-    padding: 60px;
+.intro-nosotros h2 {
+    color: #333;
     text-align: center;
-    font-size: larger;
-    position: sticky;
-    
 }
-p {
-    font-size: larger;
+
+.imagen-nosotros {
+    width: 200px;  /* Tamaño fijo para la foto */
+    height: auto;
+    border-radius: 50%;  /* Hace la imagen circular */
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #f4f4f4;
 }
+
+/* Sección de comentarios */
+.comentarios {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rosybrown;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.comentarios h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #555;
+}
+

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-    <!cabecera del documento>
     <head>
         <link rel="stylesheet" type="text/css" href="css/sn.css"/>
+        <link rel="stylesheet" type="text/css" href="css/general.css"/>
         <title>Sobre nosotros</title>
         <meta charset="UTF-8"/>
         <meta name="autor"  content="Dani"/>
@@ -10,24 +10,50 @@
         <meta name="keywords"    content="comida cocina recetas"/>
         <meta http-equiv="content-type" content="text/html"/>
         <meta http-equiv="content-language" content="es-es"/>
-        <link rel="stylesheet"  type="text/css" href="index.html"/>
         <link rel="shortcut icon"   type="image/x-icon" href="imagenes/recetascocina.ico"/>
         
     </head>
-    <!cuerpo del documento>
     <body>
         <header>
-            <center><h1>SOBRE NOSOTROS</h1></center>
-            <div class="menu">
-                <a class="menu"><a href="index.html">inicio</a>
-                <a class="menu"><a href="sobrenosotros.html">sobre nosotros</a>
-                <a class="menu"><a href="recetas.html">recetas</a>
-            </div>
+            <h1 class="centrado">RECETAS DE COCINA</h1>
+            <p class="centrado">Descubre más sobre nosotros</p>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                </ul>
+            </nav>
         </header>
-        <p>Somos una empresa de cocina dedicada a ofrecer nuestra experiencia en cocina profesional y nuestro conocimiento de recetas de cocina.
-            Nos gusta compatir nuestra pasión por la cocina y nuestro conocimiento de recetas con nuestros clientes, para que puedan disfrutar de nuestras habilidades y conocimientos,
-            y que todo el mundo pueda disfrutar de nuestras recetas.
-        </p>
-        <hr>
+        <main>
+            <section class="intro-nosotros">
+                <h2>¿Quiénes somos?</h2>
+                <p>Somos una comunidad apasionada por la cocina, dedicada a compartir nuestro conocimiento y experiencia en recetas caseras. Fundado por Dani, este sitio nació de la idea de hacer que cocinar sea accesible y divertido para todos, desde principiantes hasta expertos. Nos encanta experimentar en la cocina y queremos inspirarte a crear platos deliciosos sin complicaciones.</p>
+                <p>Nuestra misión es ofrecer recetas sencillas, con ingredientes fáciles de encontrar, y consejos prácticos para que disfrutes del proceso culinario. Cada receta es probada y adaptada para que puedas cocinar con confianza en casa.</p>
+            </section>
+            
+            <hr>
+            
+            <section class="comentarios">
+                <h2>Comparte tu opinión</h2>
+                <p>Si tienes alguna sugerencia, comentario o receta favorita, no dudes en escribirnos. Estaremos encantados de leerte y responder. Tus ideas nos ayudan a mejorar el sitio.</p>
+                <form action="mailto:recetascocinamail@gmail.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea id="comentario" name="comentario" rows="10" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer class="centrado">
+            <p>&copy; 2025 Recetas de Cocina. <a href="index.html">Volver al inicio</a></p>
+        </footer>
     </body>
 </html>

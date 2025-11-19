@@ -1,38 +1,5 @@
-.menu {
-    text-align: center;
-    margin: 15px;
-    font-size: larger;
-}
-
-header {
-    background-color: rosybrown;
-    padding: 60px;
-    text-align: center;
-    font-size: larger;
-    position: sticky;
-    
-}
-p {
-    font-size: larger;
-}
-
-
-body {
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-     url('../imagenes/espaguetis.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.212);  /* Overlay blanco */
-    z-index: -1;  /* Detrás del contenido */
+.imagen {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
 }
